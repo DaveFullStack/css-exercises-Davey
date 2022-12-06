@@ -1,0 +1,11 @@
+.button {
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.two {
+    background-color: yellow;
+}
+.one {
+    background-color: black;
+    color: white;
+}
