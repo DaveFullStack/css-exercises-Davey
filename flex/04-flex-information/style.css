@@ -5,11 +5,36 @@ body {
 img {
   width: 100px;
   height: 100px;
+  align-items: center;
 }
-
 .title {
-  font-size: 36px;
-  font-weight: 900;
+  align-items: center;
+  font-size: 50px;
+  font-weight: bold;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 32px;
+}
+.container {
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 3em;
+  margin-right: 3em;
+  gap: 52px;
+}
+.information {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  height: auto;
+}
+.text {
+  font-size: 32px;
+  text-align: center;
+
 }
 
 /* do not edit this footer */
